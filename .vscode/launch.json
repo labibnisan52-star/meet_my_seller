@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "meet_my_app_seller",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define=SUPABASE_URL=https://jkhyrjuoponaqefdwexw.supabase.co",
+                "--dart-define=SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpraHlyanVvcG9uYXFlZmR3ZXh3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODg2MjkwOTMsImV4cCI6MjEwNDIwNTA5M30.FS5pNE1PUB8FKb5n4fRlsldaNeR2EUjy6eQmIW88yL4"
+            ]
+        },
+        {
+            "name": "meet_my_app_seller (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "meet_my_app_seller (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
